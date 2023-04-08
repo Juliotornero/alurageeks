@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
     <header class="header__container">
 
         <img class="header__img" src="/assets/img/Logo.svg" alt="logo aluraweeks">
@@ -127,14 +128,14 @@
                     <a href="#">Ver producto</a>
                 </div>
 
-                <div class="item__info">
+                <div class="item__info oculto">
                     <img src="assets/img/console-items5.png" alt="imagen del producto">
                     <p>Producto XYZ</p>
                     <em>R$ 60.00</em>
                     <a href="#">Ver producto</a>
                 </div>
 
-                <div class="item__info">
+                <div class="item__info oculto">
                     <img src="assets/img/console-items6.png" alt="imagen del producto">
                     <p>Producto XYZ</p>
                     <em>R$ 60.00</em>
@@ -183,14 +184,14 @@
                     <a href="#">Ver producto</a>
                 </div>
 
-                <div class="item__info">
+                <div class="item__info oculto">
                     <img src="assets/img/various-items5.png" alt="imagen del producto">
                     <p>Producto XYZ</p>
                     <em>R$ 60.00</em>
                     <a href="#">Ver producto</a>
                 </div>
 
-                <div class="item__info">
+                <div class="item__info oculto">
                     <img src="assets/img/various-items6.png" alt="imagen del producto">
                     <p>Producto XYZ</p>
                     <em>R$ 60.00</em>
@@ -203,6 +204,34 @@
 
     </main>
 
+    <footer class="footer__container">
+        <img class="footer__img" src="/assets/img/Logo.svg" alt="logo aluraweeks">
+        <nav class="footer_nav">
+            <li><a href="#">Quienes somos</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Programa de fidelidad</a></li>
+            <li><a href="#">Nuestras tiendas</a></li>
+            <li><a href="#">Quiero ser franquiciado</a></li>
+            <li><a href="#">Anúncie aquí</a></li>
+        </nav>
+
+        <div class="formulario__box">
+            <h2 class="contacto__title">Hable con nosotros</h2>
+            <form class="form__contact">
+                    <div class="form__item">
+                        <label for="ipt">Nombre</label>
+                        <input type="text" name="" id="ipt" placeholder="Ana de Armas" required maxlength="50" >
+                    </div>
+                    
+                    <div class="form__item">
+                        <textarea placeholder="Mensaje" required maxlength="300"></textarea>
+                    </div>
+    
+                    <input class="btn" type="submit" value="Enviar mensaje">
+            </form>
+        </div>
+
+    </footer>
 
 </body>
 </html>

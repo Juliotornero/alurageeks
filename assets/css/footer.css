@@ -1,0 +1,103 @@
+.footer__container {
+    background-color: #eaf2fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.footer__img{
+    width: 176px;
+    height: 50px;
+    margin-bottom: 16px;
+}
+
+.footer_nav{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer_nav li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2.2;
+    color: #464646;
+}
+
+
+
+.formulario__box{
+    text-align: left;
+    width: 100%;
+}
+
+.contacto__title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #464646;
+}
+
+.form__contact{
+    width: 100%;
+}
+
+.form__item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #ffff;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    /* border-bottom: 2px solid #2A7AE4; */
+}
+
+.form__item label {
+    font-size: 12px;
+    /* color: #2A7AE4; */
+}
+
+.form__item input {
+    width: 100%;
+    height: 30px;
+    border: 0;
+    outline: none;
+    color: #464646;
+    font-size: 15px;
+}
+
+.form__contact .form__item:last-child {
+    height: 150px;
+}
+
+.form__item textarea {
+    width: 100%;
+    height: 130px;
+    border: 0;
+    outline: none;
+    color: #464646;
+    font-size: 15px;
+    resize: none;
+}
+
+.form__item input::placeholder,
+textarea::placeholder {
+    font-size: 15px;
+    color: #a2a2a2;
+    font-family: "Raleway";
+}
+
+.form__contact .btn {
+    width: 130px;
+    height: 35px;
+    border: 0;
+    background-color: #2a7ae4;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
