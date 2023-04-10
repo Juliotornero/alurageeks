@@ -128,6 +128,7 @@ body{
 
     .header__search-container input{
         display: flex;
+        width: 90%;
     }
 
     /* BANNER */
@@ -155,9 +156,54 @@ body{
     .hero__button{
         margin-bottom: 0;
     }
+
 }
 
+/* DESKTOP */
 
+@media(min-width:1440px){
+
+    .header__container{
+        padding: 0 152px;
+    }
+
+    .header__img{
+        width: 176px;
+        height: 50px;
+    }
+
+    /* HEADER */
+
+    .header__search-container{
+        width: 393px;
+        margin-right: 380px;
+    }
+
+    /* BANNER */
+
+    .hero__container{
+        background-image: url(/assets/img/hero-background-desktop.png);
+        padding: 32px 152px;
+    }
+
+    .hero__button{
+        margin-bottom: 0;
+        width: 129px;
+        height: 51px;
+    }
+
+}
+
+@media(min-width:1920px){
+
+    .header__container{
+        padding: 0 300px;
+    }
+
+    .hero__container{
+        padding: 32px 300px;
+    }
+}
 
 
 

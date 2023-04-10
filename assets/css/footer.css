@@ -135,3 +135,49 @@ textarea::placeholder {
         height: 72px;
     }
 }
+
+
+
+@media(min-width:1440px){
+    .footer__container {
+        padding: 32px 152px;
+        align-items: start;
+    }
+
+    .footer_nav{
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        text-align: left;
+    }
+
+    .footer__img{
+        margin-top: 10px;
+    }
+
+    .footer_nav li{
+        line-height: 3.1;
+    }
+
+    .formulario__box{
+        width: 48%;
+    }
+
+    .form__item textarea {
+        height: 82px;
+    }
+
+    .form__contact .btn{
+        width: 144px;
+        height: 51px;
+    }
+}
+
+
+@media(min-width:1920px){
+    .footer__container {
+        padding: 32px 300px;
+    }
+  
+}
