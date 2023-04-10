@@ -28,6 +28,8 @@
 
 
 
+/* formulario */
+
 .formulario__box{
     text-align: left;
     width: 100%;
@@ -100,4 +102,36 @@ textarea::placeholder {
     color: white;
     cursor: pointer;
     font-weight: 500;
+}
+
+.developer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #464646;
+}
+
+
+
+@media(min-width:768px){
+    .footer__container {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 32px;
+    }
+
+    .footer_nav{
+        text-align: left;
+    }
+    
+    .formulario__box{
+        text-align: left;
+        width: 400px;
+    }
+
+    .form__item textarea {
+        height: 72px;
+    }
 }

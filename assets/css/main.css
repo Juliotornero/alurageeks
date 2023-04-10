@@ -79,3 +79,20 @@
 .oculto{
     display: none;
 }
+
+
+@media(min-width:768px){
+
+    .items__container{
+    padding: 32px;
+    }
+
+    .item__info{
+    width: 23%;
+    }
+    .oculto{
+    display: none;
+    }
+
+
+}
