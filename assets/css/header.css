@@ -69,7 +69,7 @@ body{
 .hero__container{
     width: 100vw;
     height: 192px;
-    background-image: url(assets/img/hero-background.png);
+    background-image: url(../../assets/img/hero-background.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -136,7 +136,7 @@ body{
 
     .hero__container{
         height: 352px;
-        background-image: url(assets/img/hero-background-tablet.png);
+        background-image: url(../../assets/img/hero-background-tablet.png);
         padding: 32px;
     }
 
@@ -183,7 +183,7 @@ body{
     /* BANNER */
 
     .hero__container{
-        background-image: url(assets/img/hero-background-desktop.png);
+        background-image: url(../../assets/img/hero-background-desktop.png);
         padding: 32px 152px;
     }
 
