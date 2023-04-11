@@ -115,7 +115,11 @@
 
 @media(min-width:1920px){
 
-    .items__container{
-        padding: 44px 300px;
+    .item__info{
+        width: 15%;
+    }
+
+    .items__container, .hero__container{
+        padding: 44px 500px;
     }
 }

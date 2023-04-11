@@ -4,34 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Agregar nuevo producto</title>
     <link rel="shortcut icon" href="/assets/img/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/footer.css">
-    <link rel="stylesheet" href="/assets/css/login.css">
+    <link rel="stylesheet" href="/assets/css/agregarProducto.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
 
+<body>
     <header class="header__container">
         <a href="index.html"><img class="header__img" src="/assets/img/Logo.svg" alt="logo aluraweeks"></a>
-        <a href="login.html" class="header__link"><input class="header__button" type="button" value="Login"></a>
+
+        <a href="products.html" class="header__link"><input class="header__button add" type="button" value="Menu Administrador"></a>
+
+        <div class="header__search-container">
+            <img class="header__search-icon" src="/assets/img/search-icon.svg" alt="Icono de busqueda">
+            <input type="text" placeholder="¿Qué deseas buscar?">
+        </div>
     </header>
 
-    <main class="main__containerLogin">
-            <section class="formulario__boxLogin">
-                <h2 class="contacto__title">Iniciar Sesión</h2>
-                <form class="form__contactLogin">
-        
-                        <input type="text" id="ipt"  maxlength="40" placeholder="Escriba su correo electrónico" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" required>
+    <main class="main__container">
 
-                        <input type="password" placeholder="Escriba su contraseña" required maxlength="30">
-                        
-                        <a href="products.html"><input class="btn" type="button" value="Entrar"></a>
-                </form>
-            </section>  
+        <div class="formulario__box--add">
+
+            <h2 class="contacto__title--add">Agregar nuevo producto</h2>
+
+            <form class="form__contact--add">
+                <div class="form__item">
+                    <label for="ipt">URL de la imagen</label>
+                    <input type="text" name="" id="" required>
+                </div>
+
+                <div class="form__item">
+                    <label for="ipt">Categoria</label>
+                    <input type="text" name="" id="ipt" placeholder="Consolas" required maxlength="50" >
+                </div>
+
+                <div class="form__item">
+                    <label for="ipt">Nombre del producto</label>
+                    <input type="text" name="" id="ipt" placeholder="Producto XYZ" required maxlength="50">
+                </div>
+
+                <div class="form__item">
+                    <label for="ipt">Precio del producto</label>
+                    <input type="text" name="" id="ipt" placeholder="$60.00" required maxlength="50" >
+                </div>
+                
+                <div class="form__item">
+                    <textarea placeholder="Descripcion del producto" required maxlength="300"></textarea>
+                </div>
+
+                <input class="btn-add" type="submit" value="Agregar producto">
+            </form>
+
+        </div>
     </main>
 
     <footer class="footer__container">
@@ -70,6 +99,5 @@
     <div class="developer">
         <p>Desarrollado por <a href="#">Julio Tornero</a> 2023</p>
     </div>
-    
 </body>
 </html>

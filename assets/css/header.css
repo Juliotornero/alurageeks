@@ -11,10 +11,6 @@ body{
     padding: 16px;
 }
 
-.header__img{
-
-}
-
 .header__button{
     width: 133px;
     height: 40px;
@@ -24,6 +20,11 @@ body{
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     font-weight: 600;
+    margin-left: 10px;
+}
+
+.add{
+    font-size: 13px;
 }
 
 /* Busqueda */
@@ -197,7 +198,7 @@ body{
 @media(min-width:1920px){
 
     .header__container{
-        padding: 0 300px;
+        padding: 0 500px;
     }
 
     .hero__container{
